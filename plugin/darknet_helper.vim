@@ -53,8 +53,8 @@ if !exists(":DarknetHelper")
 endif
 
 if !hasmapto('<Plug>DarknetHelper')
-    map <unique> <leader>s <Plug>DarknetHelper
+    map <unique> <leader>vd <Plug>DarknetHelper
 endif
 
-noremap <unique> <script> <Plug>DarknetHelper <SID> DarknetHelper
+noremap <unique> <script> <Plug>DarknetHelper <SID>DarknetHelper
 noremap <SID>DarknetHelper :call <SID>DarknetHelper()<CR>
